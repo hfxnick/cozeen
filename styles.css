@@ -620,6 +620,128 @@ a:hover {
 }
 
 /* ===============================================
+   Join Our Team Section
+   =============================================== */
+.join-team {
+    padding: 80px 0;
+    background-color: var(--white);
+}
+
+.join-team-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.join-team-text h2 {
+    color: var(--teal);
+    margin-bottom: 1.5rem;
+}
+
+.join-team-intro {
+    font-size: 1.2rem;
+    color: #5a5045;
+    margin-bottom: 2.5rem;
+    line-height: 1.8;
+}
+
+.join-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.join-benefit-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.join-icon {
+    font-size: 1.5rem;
+    color: var(--teal);
+    font-weight: 700;
+    min-width: 30px;
+}
+
+.join-benefit-item h4 {
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+}
+
+.join-benefit-item p {
+    color: #5a5045;
+    margin: 0;
+}
+
+.join-cta {
+    text-align: left;
+}
+
+.join-note {
+    margin-top: 1rem;
+    color: #5a5045;
+    font-size: 0.95rem;
+}
+
+.join-note a {
+    color: var(--coral);
+    font-weight: 600;
+}
+
+.join-team-visual {
+    display: flex;
+    align-items: center;
+}
+
+.join-visual-card {
+    background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
+    padding: 3rem;
+    border-radius: 20px;
+    border: 3px solid var(--teal);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.join-visual-card h3 {
+    color: var(--teal);
+    margin-bottom: 1.5rem;
+}
+
+.join-visual-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.join-visual-card ul li {
+    padding: 0.75rem 0;
+    color: var(--dark);
+    border-bottom: 1px solid rgba(154, 155, 135, 0.2);
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.join-visual-card ul li:before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--coral);
+    font-weight: 700;
+}
+
+.join-visual-card ul li:last-child {
+    border-bottom: none;
+}
+
+.join-footer-text {
+    color: #5a5045;
+    font-style: italic;
+    margin: 0;
+}
+
+/* ===============================================
    Contact Section
    =============================================== */
 .contact {
@@ -908,6 +1030,10 @@ a:hover {
         grid-template-columns: 1fr;
     }
 
+    .join-team-content {
+        grid-template-columns: 1fr;
+    }
+
     .contact-wrapper {
         grid-template-columns: 1fr;
     }
@@ -939,6 +1065,7 @@ a:hover {
     .about,
     .service-areas,
     .why-choose,
+    .join-team,
     .contact {
         padding: 50px 0;
     }
