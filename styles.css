@@ -13,16 +13,16 @@
 }
 
 :root {
-    --coral: #d4a59a;
-    --teal: #8b9b7a;
+    --coral: #c6aa98;
+    --teal: #9a9b87;
     --cream: #f5f0e8;
     --white: #ffffff;
     --dark: #2d2620;
     --gray: #6b5f50;
     --light-gray: #f8f6f2;
     --transition: all 0.3s ease;
-    --accent-blush: #e6c9c3;
-    --accent-olive: #737f64;
+    --accent-blush: #d4bfb3;
+    --accent-olive: #85876d;
     --warm-beige: #e8dcc8;
 }
 
@@ -140,7 +140,7 @@ a:hover {
     background-color: transparent;
     color: var(--coral);
     border-color: var(--coral);
-    box-shadow: 0 5px 20px rgba(212, 165, 154, 0.3);
+    box-shadow: 0 5px 20px rgba(198, 170, 152, 0.3);
     transform: translateY(-2px);
 }
 
@@ -153,7 +153,7 @@ a:hover {
 .btn-secondary:hover {
     background-color: var(--teal);
     color: var(--white);
-    box-shadow: 0 5px 20px rgba(139, 155, 122, 0.3);
+    box-shadow: 0 5px 20px rgba(154, 155, 135, 0.3);
     transform: translateY(-2px);
 }
 
@@ -322,7 +322,7 @@ a:hover {
     right: 0;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(212, 165, 154, 0.15) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(198, 170, 152, 0.15) 0%, transparent 70%);
     border-radius: 50%;
     z-index: 1;
 }
@@ -723,7 +723,7 @@ a:hover {
     background-color: var(--teal);
     color: var(--white);
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(139, 155, 122, 0.3);
+    box-shadow: 0 5px 15px rgba(154, 155, 135, 0.3);
     border-color: var(--teal);
 }
 

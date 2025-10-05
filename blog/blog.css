@@ -210,7 +210,7 @@
 }
 
 .post-cta {
-    background: linear-gradient(135deg, var(--coral) 0%, var(--accent-blush) 100%);
+    background: linear-gradient(135deg, var(--teal) 0%, var(--accent-olive) 100%);
     color: var(--white);
     padding: 3rem;
     border-radius: 20px;
@@ -226,6 +226,20 @@
 .post-cta p {
     margin-bottom: 2rem;
     font-size: 1.1rem;
+    color: var(--white);
+}
+
+.post-cta .btn-primary {
+    background-color: var(--white);
+    color: var(--teal);
+    border-color: var(--white);
+    font-weight: 700;
+}
+
+.post-cta .btn-primary:hover {
+    background-color: var(--coral);
+    color: var(--white);
+    border-color: var(--coral);
 }
 
 .back-to-blog {
